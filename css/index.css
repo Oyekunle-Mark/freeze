@@ -1,0 +1,153 @@
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #3A4764;
+	padding-bottom: 10px;
+}
+
+header ul li {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+header ul li a:hover {
+	text-decoration: underline;
+}
+
+article.first {
+	padding-top: 500px;
+	color: #3A4764;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 30px;
+	color: #3A4764;
+}
+
+
+section {
+	width: 45%;
+	margin-right: 5%;
+	text-align: justify;
+	color: #3A4764;
+}
+
+article.first section img {
+	border: 2px solid #3A4764;
+	border-radius: 20px;
+}
+
+.formSet {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+article section form {
+	border-right: 2px;
+}
+
+article section form .formSet label {
+	width: 20%;
+}
+
+article section form .formSet input {
+	width: 80%;
+	height: 25px;
+	float: right;
+	border: 2px solid #3A4764;
+	border-radius: 10px;
+}
+
+article section form .formSet textarea {
+	width: 80%;
+	float: right;
+	border: 2px solid #3A4764;
+	border-radius: 10px;
+}
+
+article section form button {
+	position: relative;
+	top: 60px;
+	left: 250px;
+	width: 70px;
+	border: 2px solid #3A4764;
+	border-radius: 5px;
+}
+
+article section table {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 600px;
+	table-border: 2px solid blue;
+	padding: 5px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: #3A4764;
+	margin-top: 50px;
+}
+
+footer .initial{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+footer .initial ul {
+	width: 25%;
+}
+
+footer .initial ul li {
+	list-style-type: none;
+	color: white;
+	text-align: center;
+}
+
+footer .initial ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.copyright {
+	height: 20px;
+	background-color: white;
+}
+
+.copyright h3  {
+	text-align: center;
+	height: 20px;
+	color: #3A4764;
+}
